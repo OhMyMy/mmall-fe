@@ -1,0 +1,31 @@
+<div class="editModal editClose-btn">
+    <div class="editModal-container">
+        <div class="editModal-header">
+            <h4 class="editModal-title">更新用户信息：</h4>     
+            <i class="fa fa-close editClose-btn"></i>
+        </div>
+        <div class="editModal-body">
+            <div class="from-line">
+                <span class="label">用户名：</span>
+                <span class="text">{{username}}</span>
+            </div>
+            <div class="from-line">
+                <label class="label" for="phone">电 话：</label>
+                 <input type="text" class="input" id="phone" value="{{phone}}">
+            </div>
+            <div class="from-line">
+                <label class="label" for="email">邮 箱：</label>
+                 <input type="text" class="input" id="email" value="{{email}}">
+            </div>
+            <div class="from-line">
+                <label class="label" for="question">问 题：</label>
+                 <input type="text" class="input" id="question" value="{{question}}">
+            </div>
+            <div class="from-line">
+                <label class="label" for="answer">答 案：</label>
+                <input type="text" class="input" id="answer" value="{{answer}}">
+            </div>   
+            <span class="btn submit-btn">提交</span>
+        </div>
+    </div>
+</div>

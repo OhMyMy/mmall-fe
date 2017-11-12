@@ -1,0 +1,76 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-02 00:02:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-22 01:20:28
+*/
+.from-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.from-line .label{
+    display: inline-block;
+    width: 60px;
+}
+/* 测试部分 */
+.editModal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.editModal .editModal-container{
+    width: 330px;
+    margin:50px auto;
+    background: #fff;
+    border-radius: 2px;
+}
+.editModal .editModal-container .editModal-header{
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.editModal .editModal-container .editModal-header .editClose-btn{
+    position: absolute;
+    padding: 10px;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+}
+.editModal .editModal-container .editModal-body{
+    padding: 15px;
+}
+.editModal .editModal-container .from-line{
+    margin: 10px 0;
+}
+.editModal .editModal-container .from-line .label{
+    width: 65px;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+    cursor: pointer; 
+}
+.editModal .editModal-container .from-line .input{
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    margin-right: 10px;
+   
+}
+.editModal .editModal-container .submit-btn{
+    margin-left: 73px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+/* 测试部分 */
+ 

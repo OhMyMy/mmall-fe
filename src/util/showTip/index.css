@@ -1,0 +1,65 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-20 12:37:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-20 15:53:04
+*/
+.tipModal{   
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.tipModal-content{
+     width:382px;
+     margin: 200px auto;
+     background: #fff;
+     border:1px solid rgba(0,0,0,.2);
+     border-radius: 6px;
+     box-shadow: 0 5px  15px rgba(0,0,0,.5);
+}
+.tipModal-header{
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tipModal-title{
+    font-size: 14px;
+    color: #666;
+}
+.tipModal-content .tipModal-header .tipClose-btn{
+    position: absolute;
+    padding: 10px;
+    right: 10px;
+    top:10px;
+    color: #888;
+    cursor: pointer;
+}
+
+.tipModal-body{
+    padding: 15px 15px 15px 25px;
+    font-size: 14px;
+    color: #c60023;
+}
+.tipModal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.tipBtn{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid transparent;
+    border-radius: 4px;
+    background: #c60023;
+    color:#fff;
+    margin-left:6px;
+}

@@ -1,0 +1,16 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-02 21:52:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-02 22:42:57
+*/
+.from-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.from-line .label{
+    display: inline-block;
+    width: 80px;
+}
